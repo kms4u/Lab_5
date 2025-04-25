@@ -1,11 +1,17 @@
 # Lab_5
 
-Lab_5/
-├── docker-compose.yml
-├── Dockerfile
-├── index.php
-├── categories/
+project/
+├── docker-compose.yml      # Конфигурация Docker
+├── Dockerfile             # Настройка PHP-образа
+├── index.php              # Главный скрипт
+├── categories/            # Папка с категориями
 │   ├── Подарки/
+│   │   ├── Красивый_букет.txt
+│   │   └── Подарочный_набор.txt
 │   ├── Сувениры/
+│   │   ├── Магнит_на_холодильник.txt
+│   │   └── Кружка_с_логотипом.txt
 │   └── Handmade/
-└── .htaccess
+│       ├── Вязаная_игрушка.txt
+│       └── Деревянная_шкатулка.txt
+└── .htaccess              # Опционально для Apache
